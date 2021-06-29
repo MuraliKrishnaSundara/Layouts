@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nrupul"
+        android:background="#DE1717"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingTop="19dp"
+        android:paddingLeft="33dp"
+        android:paddingBottom="19dp"
+        android:paddingRight="33dp"
+        android:id="@+id/tcNrupul"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dev"
+        android:background="#0E0481"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingTop="19dp"
+        android:paddingLeft="59dp"
+        android:paddingBottom="11dp"
+        android:paddingRight="33dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prateek"
+        android:background="#0E0481"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/tcNrupul"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingTop="13dp"
+        android:paddingLeft="44dp"
+        android:paddingBottom="22dp"
+        android:paddingRight="25dp"
+        android:id="@+id/tvPrateek"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aman"
+        android:background="#920495"
+        android:layout_marginTop="97dp"
+        android:layout_below="@+id/tvPrateek"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingTop="21dp"
+        android:paddingLeft="40dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="44dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rahul"
+        android:background="#3F0D66"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingTop="11dp"
+        android:paddingLeft="51dp"
+        android:paddingBottom="11dp"
+        android:paddingRight="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
