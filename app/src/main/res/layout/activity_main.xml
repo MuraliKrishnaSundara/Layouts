@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#551947">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:background="#E5E5E5"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/vWhite"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="16dp"
+        android:text="Fly to Seoul"
+        android:id="@+id/tvFly"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:drawablePadding="37.75dp"
+        android:drawableLeft="@drawable/back_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+    
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFly"
+        android:layout_marginTop="70dp"
+        android:textSize="16dp"
+        android:hint="1 Adult, Economy"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/tvName"
+        android:textStyle="bold"
+        android:drawablePadding="19dp"
+        android:drawableLeft="@drawable/name"
+        android:layout_marginLeft="27dp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvName"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/vLine1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vLine1"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:hint="Seoul, Korea"
+        android:id="@+id/tvLocation"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        android:drawablePadding="28dp"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:layout_marginLeft="27dp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvLocation"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/vLine2"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vLine2"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:hint="Choose Destination"
+        android:id="@+id/tvDestination"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        android:drawablePadding="28dp"
+        android:drawableLeft="@drawable/flight"
+        android:layout_marginLeft="27dp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvDestination"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/vLine3"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vLine3"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:hint="Select Dates"
+        android:id="@+id/tvDate"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        android:drawablePadding="28dp"
+        android:drawableLeft="@drawable/calendar"
+        android:layout_marginLeft="27dp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvDate"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/vLine4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/vWhite"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="#C2C2C2"
+        android:text="Explore flights by destination"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:id="@+id/tvExplore"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvExplore"
+        android:layout_marginTop="21dp"
+        android:drawableLeft="@drawable/khumbu_valley"
+        android:drawablePadding="20dp"
+        android:layout_marginLeft="19dp"
+        android:id="@+id/tvKumbu"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvKumbu"
+        android:layout_marginTop="21dp"
+        android:drawableLeft="@drawable/maldives"
+        android:drawablePadding="20dp"
+        android:layout_marginLeft="19dp"
+        android:gravity="center"
+        android:id="@+id/tvMaldives"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvExplore"
+        android:text="Khumbu Valley, Nepal"
+        android:layout_marginTop="47dp"
+        android:layout_marginLeft="161dp"
+        android:textColor="@color/black"
+        android:id="@+id/tvTextKhumbu"
+        android:textSize="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NonStop - 5h 16m+"
+        android:layout_below="@id/tvTextKhumbu"
+        android:layout_marginLeft="161dp"
+        android:textColor="#C2C2C2"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvExplore"
+        android:text="Maldives, South Asia"
+        android:layout_marginTop="139dp"
+        android:layout_marginLeft="161dp"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:id="@+id/tvTextMaldives"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NonStop - 8h 24m+"
+        android:layout_below="@id/tvTextMaldives"
+        android:layout_marginLeft="161dp"
+        android:textColor="#C2C2C2"
+        android:textSize="12dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvKumbu"
+        android:layout_marginTop="10dp"
+        android:background="#C2C2C2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"/>
+
+</RelativeLayout>
