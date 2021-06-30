@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#0583EA"
+        android:id="@+id/vBlueRect"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/arrow_back"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:layout_marginTop="18.5dp"
+        android:drawablePadding="40dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vBlueRect"
+        android:hint="Email"
+        android:textColorHint="#444444"
+        android:textSize="13dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/tvEmail"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvEmail"
+        android:layout_marginTop="0dp"
+        android:background="#3A3642"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:id="@+id/vLine1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vLine1"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Password"
+        android:textColorHint="#444444"
+        android:textSize="13dp"
+        android:id="@+id/tvPassword"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvPassword"
+        android:layout_marginTop="0dp"
+        android:background="#3A3642"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:id="@+id/vLine2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/vLine2"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:text="Use phone number"
+        android:textColor="#0583EA"
+        android:textSize="13dp"
+        android:id="@+id/tvPhoneNo"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvPhoneNo"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:background="#858992"
+        android:id="@+id/btnLogin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Forgot Password ?"
+        android:textColor="#858992"
+        android:textSize="13dp"
+        android:id="@+id/tvForgotPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvForgotPassword"
+        android:layout_marginTop="60dp"
+        android:text="or"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:id="@+id/ivOr"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="42dp"
+        android:background="#FFFFFF"
+        android:text="Continue with google"
+        android:textSize="16dp"
+        android:textColor="#373737"
+        android:drawableLeft="@drawable/icons_google"
+        android:gravity="center"
+        android:paddingLeft="32dp"
+        android:id="@+id/btnGoogle"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/btnGoogle"
+        android:layout_marginBottom="22dp"
+        android:background="#3B5998"
+        android:drawableLeft="@drawable/logo_facebook"
+        android:text="Continue with facebook"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:paddingLeft="32dp"/>
+
+</RelativeLayout>
