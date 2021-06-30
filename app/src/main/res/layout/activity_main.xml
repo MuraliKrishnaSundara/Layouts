@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="	#4267B2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:id="@+id/tvFacebookIcon"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFacebookIcon"
+        android:layout_marginTop="51dp"
+        android:layout_marginLeft="43dp"
+        android:hint="Enter username or email id"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/tvEmail"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvEmail"
+        android:background="#FFFFFF"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/vLine1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vLine1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="43dp"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/tvPassword"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvPassword"
+        android:background="#FFFFFF"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/vLine2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vLine2"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="43dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/tvLogin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvLogin"
+        android:layout_marginTop="150dp"
+        android:text="Sign up for facebook"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:id="@+id/tvSignUp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSignUp"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        android:text="Forgot password?"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSignUp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="260dp"
+        android:drawableRight="@drawable/ic_questionmark"
+        android:drawablePadding="30dp"/>
+
+</RelativeLayout>
